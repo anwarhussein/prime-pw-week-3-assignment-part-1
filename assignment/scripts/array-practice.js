@@ -49,7 +49,7 @@ console.log('Added an animal to end,', animalArray);
 
 // 4.a. TODO: Add a new food at the end of your array & log the array
 myFavFoods.push('pasta');
-console.log(`Added another favorite food to the end ${myFavFoods}`);
+console.log(`Added another favorite food to the end, ${myFavFoods}`);
 
 
 // Example: Remove the last animal by using Array.pop
@@ -59,7 +59,9 @@ console.log('The animals are now', animalArray);
 
 // 4.b. TODO: Remove the food at the end of your array &
 //      log both the food removed and the updated array
-
+let removedFavFood = myFavFoods.pop();
+console.log(`Removed the last food, ${removedFavFood}`);
+console.log(`My favorite foods are now, ${myFavFoods}`);
 
 // Example: Add an animal to the beginning using Array.unshift
 animalArray.unshift('walrus');
